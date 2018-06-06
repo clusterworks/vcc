@@ -6,7 +6,7 @@ After=vcc-register.service
 [Service]
 Type=notify
 NotifyAccess=all
-ExecStart=/usr/local/bin/node /vccjs/clusterwatcher.js
+ExecStart=/usr/local/bin/node /vcc/clusterwatcher.js
 Restart=on-failure
 
 [Install]

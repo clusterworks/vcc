@@ -6,7 +6,7 @@ After=vcc-dns.service
 [Service]
 Type=notify
 NotifyAccess=all
-ExecStart=/usr/local/bin/node /vccjs/clusterkeys.js
+ExecStart=/usr/local/bin/node /vcc/clusterkeys.js
 Restart=on-failure
 
 [Install]

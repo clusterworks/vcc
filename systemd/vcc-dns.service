@@ -6,7 +6,7 @@ After=vcc-net.service
 [Service]
 Type=notify
 NotifyAccess=all
-ExecStart=/usr/local/bin/node /vccjs/clusterdns.js
+ExecStart=/usr/local/bin/node /vcc/clusterdns.js
 Restart=on-failure
 
 [Install]

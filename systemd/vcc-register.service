@@ -7,7 +7,7 @@ Requires=vcc-wait4deps.service
 [Service]
 Type=notify
 NotifyAccess=all
-ExecStart=/usr/local/bin/node /vccjs/registerservice.js
+ExecStart=/usr/local/bin/node /vcc/registerservice.js
 Restart=on-failure
 
 [Install]
